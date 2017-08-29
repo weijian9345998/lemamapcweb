@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>文档3</title>
+<style>
+html,body,header,section,footer,div,ul,li,a,img,span,i,h3,h,p{ margin:0; padding:0}
+html,body{ width:100%}
+li{ list-style:none; display:block}
+a{ text-decoration:none; display:block; cursor:pointer;}
+i{ font-style:normal; display:block}
+span{ display:block}
+
+div{ margin-top:50px}
+ul{
+	display:flex;
+	justify-content:space-around;
+	margin-bottom:20px;
+	}
+ul li{
+	width:30%;
+	overflow:hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	text-align:center;
+	min-width: 0;
+	color:#666;
+	font-weight:bold;
+	line-height:30px;
+	}
+ul li img{width:100%}
+ul li i{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	text-align:center;
+	}
+	
+.jiazai{ padding:0 35%}
+.jiazai a{
+	width:32px;
+	line-height:30px;
+	border:solid 1px #CCC;
+	text-align:center;
+	color:#666;
+	border-radius:2px;
+	}
+.jiazai a:nth-of-type(1){width:34px;}
+.jiazai a:nth-of-type(6){width:34px;}
+.jiazai a:nth-of-type(7){width:34px;}
+</style>
+</head>
+
+<body>
+<div>
+    <ul>
+       <li><img src="imges/sp_03-02.jpg"><i>保洁师的一天</i></li>
+       <li><img src="imges/sp_03-03.jpg"><i>精心育儿</i></li>
+    </ul>
+    <ul>
+       <li><img src="imges/sp_03-04.jpg"><i>家政服务</i></li>
+       <li><img src="imges/sp_03-05.jpg"><i>服务周到 爱心无限</i></li>
+     </ul>
+    <ul>
+       <li><img src="imges/sp_03-06.jpg"><i>情真意切好月嫂</i></li>
+       <li><img src="imges/sp_03-02.jpg"><i>呵护母婴 细心周到</i></li>
+    </ul>
+    <ul class="jiazai">
+        <a>＜</a>
+        <a>1</a>
+        <a>2</a>
+        <a>3</a>
+        <a>4</a>
+        <a>...</a>
+        <a>＞</a>
+    </ul>
+</div>
+</body>
+</html>

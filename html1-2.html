@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>文档2</title>
+<style>
+html,body,header,section,footer,div,ul,li,a,img,span,i,h3,h,p{ margin:0; padding:0}
+html,body{ width:100%}
+li{ list-style:none; display:block}
+a{ text-decoration:none; display:block; cursor:pointer;}
+i{ font-style:normal; display:block}
+span{ display:block}
+
+div{ margin-top:50px}
+ul{
+	display:flex;
+	justify-content:space-around;
+	margin-bottom:50px;
+	}
+ul li{
+	width:22%;
+	overflow:hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	text-align:center;
+	min-width: 0;
+	color:#333;
+	}
+ul li img{width:100%}
+ul li i{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	text-align:center;
+	line-height:30px;
+	}
+.jiazai{ padding:0 35%}
+.jiazai a{
+	width:32px;
+	line-height:30px;
+	border:solid 1px #CCC;
+	text-align:center;
+	color:#666;
+	border-radius:2px;
+	}
+.jiazai a:nth-of-type(1){width:34px;}
+.jiazai a:nth-of-type(6){width:34px;}
+.jiazai a:nth-of-type(7){width:34px;}
+
+
+</style>
+</head>
+
+<body>
+<div>
+    <ul>
+       <li><img src="imges/ho_01.jpg"><i>技高德馨情殷殷，无私奉献爱多多</i></li>
+       <li><img src="imges/ho_02.jpg"><i>精心育儿 服务周到 爱心无限 行业楷模</i></li>
+       <li><img src="imges/ho_03.jpg"><i>情真意切好月嫂，德技双馨似亲人</i></li>
+       <li><img src="imges/ho_04.jpg"><i>呵护母婴 细心周到</i></li>
+    </ul>
+    <ul>
+       <li><img src="imges/ho_05.jpg"><i>精心育儿 服务周到 爱心无限 行业楷模</i></li>
+       <li><img src="imges/ho_06.jpg"><i>情真意切好月嫂，德技双馨似亲人</i></li>
+       <li><img src="imges/ho_07.jpg"><i>呵护母婴 细心周到</i></li>
+       <li><img src="imges/ho_08.jpg"><i>技高德馨情殷殷，无私奉献爱多多</i></li>
+    </ul>
+    <ul class="jiazai">
+        <a>＜</a>
+        <a>1</a>
+        <a>2</a>
+        <a>3</a>
+        <a>4</a>
+        <a>...</a>
+        <a>＞</a>
+    </ul>
+</div>
+</body>
+</html>
